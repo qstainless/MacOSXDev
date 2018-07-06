@@ -21,13 +21,14 @@ also work in OS X High Sierra, but I have not yet upgraded, so I don't know if i
 $ brew doctor
 </code></pre>
 
-### Step 3. Install Apache, PHP 7.2, Xdebug, git, and composer
+### Step 3. Install Apache, PHP 7.2, Xdebug, git, JDK, and composer
 
 <pre><code>$ brew install httpd
 $ brew install php@7.2
 $ pecl uninstall -r xdebug && install xdebug
 $ brew install git
 $ brew install composer
+$ brew cask install java
 
 $ sudo brew services start httpd
 $ sudo brew services start php
