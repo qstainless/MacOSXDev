@@ -34,11 +34,15 @@ $ sudo brew services start httpd
 $ sudo brew services start php
 </code></pre>
 
-### Step 4. Copy Apache configuration files:
+### Step 4. Edit and copy Apache configuration files:
 
+Edit the configuration files and replace [[username]]() with your Mac OS X username. Also, change [[domain]()].[[ext]()] 
+with the domain and extension you wish to use.
+
+After you edit the configuration files, copy them to their corresponding folders:
 <pre><code>$ cp httpd.conf /usr/local/etc/httpd/httpd.conf
 $ cp httpd-vhosts.conf /usr/local/etc/httpd/extra/httpd-vhosts.conf
-$ cp hosts /etc/hosts
+$ sudo cp hosts /etc/hosts
 </code></pre>
 
 ### Step 5. Create the Sites and Apache logs folders
