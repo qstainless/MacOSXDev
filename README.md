@@ -3,8 +3,9 @@ Get your Mac OS X Development Environment up and running.
 
 *Sources:*
 
-https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions
-https://getgrav.org/blog/macos-sierra-apache-mysql-vhost-apc
+[Mac multiple php versions](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions)
+
+[Mac Apache-MySQL-vhost-apc](https://getgrav.org/blog/macos-sierra-apache-mysql-vhost-apc)
 
 ---
 This is pretty much a summarized version of the steps set out in the above URLs. This works in OS X Sierra and should
