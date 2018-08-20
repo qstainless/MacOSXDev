@@ -8,8 +8,7 @@ Get your Mac OS X Development Environment up and running.
 [Mac Apache-MySQL-vhost-apc](https://getgrav.org/blog/macos-sierra-apache-mysql-vhost-apc)
 
 ---
-This is pretty much a summarized version of the steps set out in the above URLs. This works in OS X Sierra and should
-also work in OS X High Sierra, but I have not yet upgraded, so I don't know if it will work.
+This is pretty much a summarized version of the steps set out in the above URLs. This works in OS X Sierra and OS X High Sierra.
 
 ### Step 1. Install XCode Command Line Tools
 
