@@ -21,10 +21,10 @@ This is pretty much a summarized version of the steps set out in the above URLs.
 $ brew doctor
 </code></pre>
 
-### Step 3. Install Apache, PHP 7.2, Xdebug, git, JDK, and composer
+### Step 3. Install Apache, PHP 7.4, Xdebug, git, JDK, and composer
 
 <pre><code>$ brew install httpd
-$ brew install php@7.2
+$ brew install php
 $ pecl uninstall -r xdebug && install xdebug
 $ brew install git
 $ brew install composer
@@ -54,8 +54,8 @@ $ sudo mkdir ~/Sites/logs
 ### Step 6. Download & Install MySQL Community Server for Mac OS X
 
 Get the latest version [here](https://dev.mysql.com/downloads/mysql/). I tried installing MySQL with Homebrew but,
-apparently, the current tap version is incompatible with php 7.2.7. I did not try installing MariaDB, although I agree
-with the above-referenced guides that updating via Homebrew is recommended.
+apparently, the current tap version is incompatible with php 7.2.7 (update 1/11/2020 - still haven't upgraded MySQL).
+I did not try installing MariaDB, although I agree with the above-referenced guides that updating via Homebrew is recommended.
 
 #### 6.1. Install MySQL.
 
